@@ -7,4 +7,4 @@ app.get('/user',(req,res)=>{
 app.get('/',(req,res)=>{
     res.json({message:"Done the Works"});
 });
-app.listen(4600);
+app.listen();
